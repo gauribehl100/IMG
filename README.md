@@ -1,8 +1,8 @@
-**AI Image Generator**
+# AI Image Generator
 
 An AI-powered image generator built using the MERN stack and OpenAI API. This application allows users to create unique images based on their prompts, explore them in a dynamic gallery, and download their favorite creations. The project prioritizes user engagement with features like author information and an intuitive user interface.
 
-**Features**
+# Features
 
 1.AI-Powered Image Generation: Generate unique images based on user-provided prompts using the OpenAI API.
 
@@ -14,7 +14,7 @@ An AI-powered image generator built using the MERN stack and OpenAI API. This ap
 
 5.Author Information: Each image displays its creator's details to enhance engagement.
 
-**Tech Stack**
+# Tech Stack
 
 Frontend: React
 
@@ -24,40 +24,35 @@ Database: MongoDB
 
 API: OpenAI API
 
-**Installation**
+# Installation
 
 Follow these steps to run the project locally:
 
-Clone the repository:
-
-git clone https://github.com/your-username/ai-image-generator.git
-cd ai-image-generator
-
 Install dependencies:
 
-# For the backend
-cd server
+**For the backend**
+cd Backend
 npm install
 
-# For the frontend
-cd ../client
+**For the frontend**
+cd Frontend
 npm install
 
 Set up environment variables:
 
-Create a .env file in the server directory and add the following:
+Create a .env file in the Backend directory and add the following:
 
 OPENAI_API_KEY=your_openai_api_key
-MONGO_URI=your_mongodb_connection_string
+MONGO_URL=your_mongodb_connection_string
 
 Start the application:
 
-# Start the backend server
-cd server
+**Start the backend server**
+cd Backend
 npm start
 
-# Start the frontend client
-cd ../client
+**Start the frontend client**
+cd Frontend
 npm start
 
 Open your browser and navigate to http://localhost:3000 to use the application.
