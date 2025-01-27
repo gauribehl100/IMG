@@ -58,12 +58,13 @@ npm start
 Open your browser and navigate to http://localhost:3000 to use the application.
 
 **Folder Structure**
-
-root
-├──Frontend          
-│   ├── src|──components   # React components
-│   │      ├── pages       # Application pages 
-├── Backend           
-│   ├── models         # Mongoose models
-│   ├── routes         # API routes
-│   └── controllers    # Logic for API endpoints
+root/
+├── Frontend
+│   ├── src
+│   │   ├── components   # React components
+│   │   ├── pages        # Application pages
+│   │
+├── Backend
+│   ├── models           # Mongoose models
+│   ├── routes           # API routes
+│   └── controllers      # Logic for API endpoints
