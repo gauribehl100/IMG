@@ -61,10 +61,8 @@ Open your browser and navigate to http://localhost:3000 to use the application.
 
 root
 ├──Frontend          
-│   ├── src
-│   │   ├── components  # React components
-│   │   ├── pages       # Application pages
-│   │  
+│   ├── src|──components   # React components
+│   │      ├── pages       # Application pages 
 ├── Backend           
 │   ├── models         # Mongoose models
 │   ├── routes         # API routes
